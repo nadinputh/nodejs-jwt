@@ -1,0 +1,28 @@
+{
+  "name": "@pouthnadin/jwt",
+  "version": "1.0.1",
+  "description": "JWT Module includes key generated, sign, verify",
+  "main": "",
+  "types": "index.ts",
+  "scripts": {
+    "clean": "rm *.js .private.key .public.key.pem",
+    "key:generate": "tsc && PASSPHRASE=fsjddjozi!@@##@#123 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "issue",
+    "verify",
+    "rsa"
+  ],
+  "author": "Nadin POUTH",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/node": "^15.0.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "typescript": "^4.2.4"
+  }
+}
