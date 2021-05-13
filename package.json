@@ -5,6 +5,7 @@
   "main": "",
   "types": "index.ts",
   "scripts": {
+    "build": "tsc",
     "clean": "rm *.js .private.key .public.key.pem",
     "key:generate": "tsc && PASSPHRASE=fsjddjozi!@@##@#123 node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
